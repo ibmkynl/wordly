@@ -56,3 +56,18 @@ The project follows a **clean layered architecture**:
 - **Hive** for local storage and caching  
 - **Dio** for networking with custom error handling and response caching  
 - **Dictionary API** and **Datamuse API** as content providers  
+
+---
+
+## 🚀 Getting Started
+
+To run the project locally:
+
+1. **Clone the repo:**
+
+   ```bash
+   git clone https://github.com/your-username/wordly.git
+   cd wordly
+    ```
+
+2. **Flutter run**
