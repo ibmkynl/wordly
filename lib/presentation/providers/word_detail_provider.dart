@@ -54,10 +54,10 @@ class WordDetailProvider extends ChangeNotifier {
   }
 
   void _resetState() {
+    synonyms = [];
+    selectedFilters.clear();
     isLoading = true;
     errorMessage = null;
     searchedWord = null;
-    synonyms = [];
-    selectedFilters.clear();
   }
 }
